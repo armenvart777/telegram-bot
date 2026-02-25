@@ -1,63 +1,62 @@
-# Telegram Bot
+# Telegram Бот
 
-A multi-functional Telegram bot built with Python and Aiogram 3. Features note-taking, inspirational quotes, inline keyboards, and more.
+Многофункциональный Telegram-бот на Python и Aiogram 3. Заметки, цитаты, inline-кнопки и многое другое.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Aiogram](https://img.shields.io/badge/Aiogram-3.15-green)
 
-## Features
+## Возможности
 
-- **Notes system** — save, view, and clear personal notes
-- **Inline keyboards** — interactive buttons for quick navigation
-- **Random quotes** — inspirational programming quotes
-- **Dice rolling** — Telegram's built-in dice animation
-- **Server time** — display current server time
-- **Echo handler** — guides users to available commands
+- **Система заметок** — сохраняй, просматривай и очищай личные заметки
+- **Inline-кнопки** — интерактивные кнопки для быстрой навигации
+- **Случайные цитаты** — вдохновляющие цитаты о программировании
+- **Бросок кубика** — встроенная анимация Telegram
+- **Серверное время** — отображение текущего времени сервера
 
-## Commands
+## Команды
 
-| Command | Description |
-|---------|-------------|
-| `/start` | Start the bot with inline keyboard |
-| `/help` | Show all available commands |
-| `/note <text>` | Save a new note |
-| `/notes` | View all saved notes |
-| `/clear` | Clear all notes |
-| `/quote` | Get a random programming quote |
-| `/time` | Show current server time |
-| `/dice` | Roll a dice |
+| Команда | Описание |
+|---------|----------|
+| `/start` | Запустить бота с inline-кнопками |
+| `/help` | Показать все команды |
+| `/note <текст>` | Сохранить заметку |
+| `/notes` | Просмотреть все заметки |
+| `/clear` | Очистить все заметки |
+| `/quote` | Случайная цитата о программировании |
+| `/time` | Текущее серверное время |
+| `/dice` | Бросить кубик |
 
-## Setup
+## Установка
 
-1. Clone the repo:
+1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/armenvart777/telegram-bot.git
 cd telegram-bot
 ```
 
-2. Install dependencies:
+2. Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create `.env` file from the example:
+3. Создайте `.env` файл из примера:
 ```bash
 cp .env.example .env
 ```
 
-4. Get a bot token from [@BotFather](https://t.me/BotFather) and add it to `.env`
+4. Получите токен бота у [@BotFather](https://t.me/BotFather) и добавьте в `.env`
 
-5. Run:
+5. Запустите:
 ```bash
 python bot.py
 ```
 
-## Tech Stack
+## Технологии
 
-- **Language:** Python 3.10+
-- **Framework:** Aiogram 3
-- **Storage:** In-memory (dict)
+- **Язык:** Python 3.10+
+- **Фреймворк:** Aiogram 3
+- **Хранилище:** In-memory (dict)
 
-## License
+## Лицензия
 
 MIT
